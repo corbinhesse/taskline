@@ -16,7 +16,7 @@ program.description(pkg.description);
 
 logger.info('Starting in Debug Mode');
 
-program.name('tl').usage('[command] [options]');
+program.name('t').usage('[command] [options]');
 
 program
   .command('archive')

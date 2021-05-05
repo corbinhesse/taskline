@@ -1,9 +1,9 @@
 {
   "name": "@corbinhesse/taskline",
   "productName": "Taskline",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "Tasks, boards & notes for the command-line habitat",
-  "repository": "https://github.com/perryrh0dan/taskline",
+  "repository": "https://github.com/corbinhesse/taskline",
   "license": "MIT",
   "author": {
     "name": "Thomas Pöhlmann",
