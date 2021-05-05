@@ -1,7 +1,7 @@
 {
-  "name": "@perryrh0dan/taskline",
+  "name": "@corbinhesse/taskline",
   "productName": "Taskline",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Tasks, boards & notes for the command-line habitat",
   "repository": "https://github.com/perryrh0dan/taskline",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "semantic-release": "semantic-release"
   },
   "bin": {
-    "tl": "cli.js"
+    "t": "cli.js"
   },
   "engines": {
     "node": ">=8"
