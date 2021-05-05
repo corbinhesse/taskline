@@ -24,7 +24,7 @@ export abstract class Item {
     this.timestamp = kwArgs.timestamp || now.getTime();
     this.description = kwArgs.description || '';
     this.isStarred = kwArgs.isStarred || false;
-    this.boards = kwArgs.boards || ['My Board'];
+    this.boards = kwArgs.boards || ['backlog'];
   }
 
   public get id(): number {

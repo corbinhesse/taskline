@@ -48,7 +48,7 @@ export class Taskline {
 
   private async getBoards(): Promise<Array<string>> {
     const data = await this.getData();
-    const boards = ['My Board'];
+    const boards = ['backlog'];
 
     data.forEach(item => {
       boards.push(...item.boards.filter(x => boards.indexOf(x) === -1));
@@ -764,8 +764,8 @@ export class Taskline {
 
     parsedTerms.forEach((term: string) => {
       if (storedBoards.indexOf(term) === -1) {
-        return term === 'myboards'
-          ? boards.push('My Boards')
+        return term === 'backlog'
+          ? boards.push('backlog')
           : attributes.push(term);
       }
 

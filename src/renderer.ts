@@ -349,7 +349,7 @@ export class Renderer {
   }
 
   private displayItemByDate(item: Item): void {
-    const boards = item.boards.filter((x: string) => x !== 'My Board');
+    const boards = item.boards.filter((x: string) => x !== 'backlog');
     const star = this.getStar(item);
 
     const prefix = this.buildPrefix(item);
